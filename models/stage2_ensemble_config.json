@@ -1,0 +1,9 @@
+{
+    "model_1": "stage2_old_mobilenetv2.keras",
+    "model_2": "stage2_exp1_focal_loss.keras",
+    "model_1_weight": 0.73,
+    "model_2_weight": 0.27,
+    "accuracy": 0.7439,
+    "macro_f1": 0.5329,
+    "test_samples": 2003
+}
