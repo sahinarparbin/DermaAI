@@ -1,6 +1,11 @@
 # Requirements for RUNNING the app (app.py) - kept minimal so the
 # Use tensorflow-cpu here; the app only does inference, no GPU needed.
-tensorflow-cpu>=2.16,<3.0
-streamlit>=1.35
-pillow>=10.0
-numpy>=1.26
+
+
+
+streamlit==1.67.0
+tensorflow==2.21.0
+numpy
+opencv-python-headless
+pillow
+reportlab
